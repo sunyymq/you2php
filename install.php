@@ -2,6 +2,7 @@
 <html lang="zh-cn">
 <head>
     <title>You2PHP安装！</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://wangxiaoqing123.coding.me/hellocss.coding.me/pintuer.css">
@@ -300,7 +301,7 @@ function gipcountry(){
      if (function_exists("curl_init")) {
 	return 	'<th class="text-gray">支持</th>';
 	} else {
-		$ch = curl_init();
+		
 	return '<th class="text-dot">不支持，请启用Curl</th>';
 	} 
  }
